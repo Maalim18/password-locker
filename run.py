@@ -127,7 +127,7 @@ def main():
 
                     if short_code == 'ex':
                         print(" ")
-                        print(f'Thank you for using Password Lock.')
+                        print(f'Thank you for using the Password Lock.')
                         # break
 
                     elif short_code == 'cc':
@@ -207,7 +207,7 @@ def main():
                             print('\n')
                         else:
                             print('\n')
-                            print("You don't seem to have saved any credentials yet. enter cc to create one.")
+                            print("sorr,it seems you don't seem to have saved any credentials yet. enter cc to create one.")
                             print('\n')
 
                     elif short_code == 'copy':

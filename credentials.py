@@ -1,18 +1,12 @@
+from user import User
+import random #import random variable generator
+import string  #import string constants
+import pyperclip
+
+
 class Credentials:
-
     '''
-    class that generates new instance credentials
+    Class to create  account credentials, generate new passwords and save user information
     '''
-
-    def __init__(self, account_name, account_password):
-        self.account_name = account_name
-        self.account_password = account_password
-
-    credentials_list = []
-
-    def save_credentials(self):
-        '''
-        method that saves credentials objects into credentials list 
-        '''
-
-        self.credentials_list.append(self)
+    
+    credential_list = []

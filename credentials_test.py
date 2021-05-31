@@ -49,7 +49,7 @@ class TestCredentials(unittest.TestCase):
             objects to our credential_list
             '''
             self.new_credential.save_credentials()
-            test_credential = Credentials("Maaim","Facebook","2345678") # new credential
+            test_credential = Credentials("Maalim","Facebook","2345678") # new credential
             test_credential.save_credentials()
             self.assertEqual(len(Credentials.credential_list),9)
 

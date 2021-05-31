@@ -65,4 +65,15 @@ def credential_exist(cls, account_name):
             if credential.account_name == account_name:
                 return True
 
-        return False                      
+        return False     
+@classmethod
+def display_credentials(cls):
+        '''
+        Method to display the list of credentials saved.
+        '''
+        return cls.credential_list
+
+@classmethod
+def copy_credentials(cls, account_name):
+        credential_found = Credentials.find_by_account_name(account_name)
+        pyperclip.copy(credential_found.account_name)                         

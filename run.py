@@ -82,7 +82,7 @@ def main():
     print(' ')
     print('**Hey there,! Welcome to password Locker!**')
     while True:
-        print(".."*70)
+        print(".."*20)
         print('\n')
         
         print('Use these short codes: \n cr - Create an Account \n lg - Login \n ex - Exit')
@@ -105,7 +105,7 @@ def main():
             print('\n')
 
         elif short_code == 'lg':
-            print("--"*50)
+            print("--"*20)
             print('\n')
             print(' please enter your account details to login:')
             print('\n')
@@ -118,7 +118,7 @@ def main():
                 print(' ')
 
                 while True:
-                    print("--"*50)
+                    print("--"*20)
                     print('Our short codes: \n cc-Create a Credential \n sc-Show Credentials \n fc- Find a Credential  \n ex-Exit')
                     print('\n')
                     short_code = input('Enter a choice: ').lower()

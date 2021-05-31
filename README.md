@@ -3,7 +3,7 @@ Mohamed Maalim Ali
 ## Description
 This is an application which generates passwords nd as well stores credentials
 ## SETUP
-1.open my GitHub
+1.Go to github and search 'Maalim18'
 find my repo Password-Locker or use the repo link[https://github.com/Maalim18/password-locker.git]
 clone the repository
 open terminal from within the folder
